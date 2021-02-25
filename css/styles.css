@@ -40,6 +40,7 @@
 
 
     }
+
     h3{
       color:#845ec2;
     }
@@ -58,7 +59,7 @@
         .Topcontainer{
   background-color: #e8ffff;
   margin-top: 0;
-  height: 500px;
+  height: 480px;
   width: 100%;
 
       }
@@ -116,8 +117,8 @@
       }
       .contact-me{
         margin: 50px;
-      }
 
+}
         /********************this code here will point towords relative postioning of image and text -*************/
         .pro{
           text-decoration: underline;
