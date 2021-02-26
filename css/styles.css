@@ -119,6 +119,43 @@
         margin: 50px;
 
 }
+
+      .programimg{
+        width:200px;
+        height:150px;
+        border-radius: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+
+      }
+      .project1{
+        width:200px;
+        height:200px;
+        border-radius: 100%;
+
+        position: relative;
+        right: 350px;
+        top: 250px;
+
+      }
+      .project2{
+
+        width:200px;
+        height:200px;
+        border-radius: 100%;
+
+        position: relative;
+        left: 350px;
+        top: 250px;
+
+
+      }
+
+      .skills-row1{
+        position: relative;
+        bottom: 100px;
+      }
         /********************this code here will point towords relative postioning of image and text -*************/
         .pro{
           text-decoration: underline;
