@@ -28,6 +28,15 @@
       margin: 0;
       text-align: center;/*this will align all your text in center ofyour page******************/
 
+    background-image: url("image/mountain.png");
+    background-color: #faf3e0;
+    animation-name: example3;
+    animation-duration: 4s;
+    animation-iteration-count: 4;
+
+
+
+
 
 
     }
@@ -57,16 +66,25 @@
     }
 /***********************class selector***********************/
         .Topcontainer{
-  background-color: #e8ffff;
-  margin-top: 0;
-  height: 480px;
-  width: 100%;
+
+          background-color:#323232;
+
+          margin-top: 0;
+          height: 600px;
+          width: 100%;
+          animation-name: example;
+          animation-duration: 4s;
+          margin-bottom: 20px;
 
       }
 
         .Middlecontainer{
-          background-color:#161d6f;
+          background-color:#eeeeee;
           height: 500px;
+          animation-name: example2;
+          animation-duration: 4s;
+
+
 
 
         }
@@ -87,9 +105,12 @@
           border-radius: 100%;
           float: right;
           margin-left: 30px;
+          animation-name: example2;
+          animation-duration: 4s;
 
         }
         .h2tag{
+          margin-bottom: 20px;
           color: #11999E;
         }
 
@@ -106,16 +127,24 @@
       }
       .profile{
         line-height: 2;
+       background-color: #faf3e0;
+       animation-name: example3;
+       animation-duration: 4s;
+       animation-iteration-count: 4;
       }
 
       .bottom-container{
 
-        background-color: #bedcfa;
+        background-color: #eeeeee;
+        animation-name: example2;
+        animation-duration: 4s;
         padding: 50px 0 20px;
         height: 100px;
 
       }
       .contact-me{
+        position: relative;
+        bottom: 90px;
         margin: 50px;
 
 }
@@ -136,7 +165,7 @@
 
         position: relative;
         right: 350px;
-        top: 250px;
+        bottom:  350px;
 
       }
       .project2{
@@ -150,6 +179,17 @@
         top: 250px;
 
 
+      }
+
+      .contact1{
+        width:150px;
+        height:150px;
+        border-radius: 100%;
+
+        position: relative;
+        right: 390px;
+
+        top: 150px;
       }
 
       .skills-row1{
@@ -167,7 +207,7 @@
         .cld3{
           position: relative;
           right:400px;
-          bottom: 200px;
+          bottom: 100px;
         }
         .cld2{
           position: relative;
@@ -175,9 +215,13 @@
           top:40px;
         }
         .mount{
+
           position: relative;
+          height:400px;
+          top: 30px;
           bottom: 50px;
           right:50px;
+
         }
 /********************************************* button css code from css genrator *******************/
         .btn {
@@ -219,3 +263,28 @@
       border-radius: 33px;
       text-decoration: none;
       }
+
+      /****************************keyframes example **************************************/
+      @keyframes example {
+    from {background-color: #393e46;}
+    to {background-color: #a1eafb;}
+
+  }
+
+        @keyframes example2 {
+        from {background-color:  #eeeeee;}
+        to {background-color: #a1eafb;}
+
+}
+
+
+        @keyframes example3 {
+        from {background-color:  #eeeeee;}
+        to {background-color: #a1eafb;}
+
+}
+              @keyframes example4 {
+                from {background-image: }
+                  to {background-color: #a1eafb;}
+
+}
