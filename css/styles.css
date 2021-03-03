@@ -29,9 +29,10 @@
       text-align: center;/*this will align all your text in center ofyour page******************/
 
     background-image: url("image/mountain.png");
-    background-color: #faf3e0;
+    background-color: #eeeeee;
     animation-name: example3;
     animation-duration: 4s;
+    animation-delay: 2s;
     animation-iteration-count: 4;
 
 
@@ -127,15 +128,16 @@
       }
       .profile{
         line-height: 2;
-       background-color: #faf3e0;
+       background-color: #eeeeee;
        animation-name: example3;
        animation-duration: 4s;
+       animation-delay: 2s;
        animation-iteration-count: 4;
       }
 
       .bottom-container{
 
-        background-color: #eeeeee;
+        background-color: #fff9b0;
         animation-name: example2;
         animation-duration: 4s;
         padding: 50px 0 20px;
@@ -218,7 +220,7 @@
 
           position: relative;
           height:400px;
-          top: 30px;
+          top: 35px;
           bottom: 50px;
           right:50px;
 
@@ -279,12 +281,7 @@
 
 
         @keyframes example3 {
-        from {background-color:  #eeeeee;}
-        to {background-color: #a1eafb;}
-
-}
-              @keyframes example4 {
-                from {background-image: }
-                  to {background-color: #a1eafb;}
+        from {background-color:  #fffcca;}
+        to {background-color: #c7f3ff;}
 
 }
