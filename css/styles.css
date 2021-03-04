@@ -65,10 +65,14 @@
     a:hover{
       color:red;
     }
+
+    h1:hover{
+      color: gold;
+    }
 /***********************class selector***********************/
         .Topcontainer{
 
-          background-color:#323232;
+          background-color:black;
 
           margin-top: 0;
           height: 600px;

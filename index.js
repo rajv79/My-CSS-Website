@@ -1,8 +1,5 @@
     /********************* javascript/jquery code ***********************/
-    $("h1").on("mouseover", function(){
-      $("h1").css("color","#f6f7d7");
-    });
-
+    
 
     $("h2").on("mouseover", function(){
 
