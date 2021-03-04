@@ -77,6 +77,7 @@
           margin-top: 0;
           height: 600px;
           width: 100%;
+
           animation-name: example;
           animation-duration: 4s;
           margin-bottom: 20px;
@@ -202,33 +203,56 @@
         position: relative;
         bottom: 100px;
       }
+
+
+      .skill3{
+        width:200px;
+        height:300px;
+        margin-right: 30px;
+        border-radius: 100%;
+        float: left;
+      }
+      .skill4{
+        width:200px;
+        height:200px;
+
+        margin-left: 60px;
+        margin-top: 30px;
+        border-radius: 100%;
+        float: right;
+      }
         /********************this code here will point towords relative postioning of image and text -*************/
         .pro{
           text-decoration: underline;
         }
         .cld{
           position: relative;
-          right: 450px;
+          height: 100px;
+          top:100px;
+          right: 350px;
         }
         .cld3{
           position: relative;
-          right:400px;
-          bottom: 100px;
+          height: 100px;
+          right:30px;
+          bottom: 30px;
         }
         .cld2{
           position: relative;
-          left: 400px;
-          top:40px;
+          height: 100px;
+          left: 350px;
+          top:100px;
         }
         .mount{
 
           position: relative;
-          height:400px;
-          top: 35px;
-          bottom: 50px;
-          right:50px;
+          height:350px;
+          top :20px;
+          bottom:20px;
+          right:10px;
 
         }
+
 /********************************************* button css code from css genrator *******************/
         .btn {
         background: #CE3DF6;
@@ -272,8 +296,8 @@
 
       /****************************keyframes example **************************************/
       @keyframes example {
-    from {background-color: #393e46;}
-    to {background-color: #a1eafb;}
+    from {background-color: black;}
+    to {background-color: black;}
 
   }
 
