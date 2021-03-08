@@ -29,7 +29,7 @@
       text-align: center;/*this will align all your text in center ofyour page******************/
 
     background-image: url("image/mountain.png");
-    background-color: #eeeeee;
+    background-color: #a1eafb;
     animation-name: example3;
     animation-duration: 4s;
     animation-delay: 2s;
@@ -72,7 +72,7 @@
 /***********************class selector***********************/
         .Topcontainer{
 
-          background-color:black;
+          background-color: black;
 
           margin-top: 0;
           height: 600px;
@@ -85,7 +85,7 @@
       }
 
         .Middlecontainer{
-          background-color:#eeeeee;
+          background-color:#a1eafb;
           height: 500px;
           animation-name: example2;
           animation-duration: 4s;
@@ -133,7 +133,7 @@
       }
       .profile{
         line-height: 2;
-       background-color: #eeeeee;
+       background-color: #a1eafb;
        animation-name: example3;
        animation-duration: 4s;
        animation-delay: 2s;

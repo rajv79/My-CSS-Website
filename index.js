@@ -1,5 +1,5 @@
     /********************* javascript/jquery code ***********************/
-
+      alert(" Hello !! Thanks for Visting my Webiste !! Press ok !");
 
     $("h2").on("mouseover", function(){
 
@@ -30,5 +30,3 @@
     $(".circular").on("mouseover",function(){
       $(".circular").attr("src","image/boy.gif");
     })
-
-    
